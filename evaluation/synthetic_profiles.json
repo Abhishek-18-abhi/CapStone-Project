@@ -1,0 +1,96 @@
+{
+  "datasetVersion": "1.0.0",
+  "provenance": "Synthetic data created for the MentorConnect capstone evaluation. No real person or production account data is included.",
+  "permissions": "Evaluation-only synthetic dataset. Do not use for production decisions.",
+  "students": [
+    {
+      "id": "S001",
+      "skills": ["React", "Node.js", "JavaScript", "REST APIs", "HTML", "CSS", "SQL", "Git", "Testing", "Docker"],
+      "interests": ["Web Development"],
+      "goals": ["Software development career"],
+      "languages": ["English"],
+      "availability": ["Monday 09:00-12:00"]
+    },
+    {
+      "id": "S002",
+      "skills": ["Python", "Machine Learning", "Pandas", "NumPy", "SQL"],
+      "interests": ["AI / ML", "Data Science"],
+      "goals": ["ML career"],
+      "languages": ["English", "Hindi"],
+      "availability": ["Tuesday 13:00-16:00"]
+    },
+    {
+      "id": "S003",
+      "skills": ["Java", "Spring Boot", "REST APIs", "SQL"],
+      "interests": ["Backend Development"],
+      "goals": ["Backend engineering"],
+      "languages": ["English"],
+      "availability": ["Wednesday 10:00-13:00"]
+    },
+    {
+      "id": "S004",
+      "skills": ["SQL", "Power BI", "Excel", "Python"],
+      "interests": ["Data Analytics"],
+      "goals": ["Data analyst career"],
+      "languages": ["English", "Hindi"],
+      "availability": ["Thursday 14:00-17:00"]
+    }
+  ],
+  "mentors": [
+    {
+      "id": "M001",
+      "name": "Synthetic Mentor 1",
+      "skills": ["React", "Node.js", "JavaScript", "REST APIs", "HTML", "CSS", "SQL", "Git", "Testing", "Docker"],
+      "interests": ["Web Development"],
+      "goals": ["Software development career"],
+      "languages": ["English"],
+      "availability": ["Tuesday 09:00-12:00"],
+      "capacity": 2,
+      "currentMentees": 2
+    },
+    {
+      "id": "M002",
+      "name": "Synthetic Mentor 2",
+      "skills": ["React", "Node.js", "JavaScript", "REST APIs", "HTML", "CSS", "SQL", "Git", "Testing"],
+      "interests": ["Web Development"],
+      "goals": ["Software development career"],
+      "languages": ["English"],
+      "availability": ["Monday 09:00-12:00"],
+      "capacity": 3,
+      "currentMentees": 0
+    },
+    {
+      "id": "M003",
+      "name": "Synthetic Mentor 3",
+      "skills": ["Python", "Machine Learning", "Pandas", "NumPy", "SQL"],
+      "interests": ["AI / ML", "Data Science"],
+      "goals": ["ML career"],
+      "languages": ["English", "Hindi"],
+      "availability": ["Tuesday 13:00-16:00"],
+      "capacity": 2,
+      "currentMentees": 0
+    },
+    {
+      "id": "M004",
+      "name": "Synthetic Mentor 4",
+      "skills": ["Java", "Spring Boot", "REST APIs", "SQL"],
+      "interests": ["Backend Development"],
+      "goals": ["Backend engineering"],
+      "languages": ["English"],
+      "availability": ["Wednesday 10:00-13:00"],
+      "capacity": 2,
+      "currentMentees": 2
+    },
+    {
+      "id": "M005",
+      "name": "Synthetic Mentor 5",
+      "skills": ["SQL", "Power BI", "Excel", "Python"],
+      "interests": ["Data Analytics"],
+      "goals": ["Data analyst career"],
+      "languages": ["English", "Hindi"],
+      "availability": ["Thursday 14:00-17:00"],
+      "capacity": 3,
+      "currentMentees": 1
+    }
+  ]
+}
