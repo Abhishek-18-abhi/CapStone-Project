@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "format": "prettier --write frontend",
     "test": "vitest run",
+    "test:robustness": "node --test backend/utils/__tests__/meetingValidation.test.mjs && vitest run frontend/lib/__tests__/baselineMatching.test.js",
     "evaluate:baseline": "node evaluation/run-baseline-evaluation.mjs"
   },
   "dependencies": {
